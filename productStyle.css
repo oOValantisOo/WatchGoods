@@ -1,0 +1,60 @@
+.products{
+    padding-left: 10px;
+    z-index: 999;
+    position: relative;
+    display: inline-block;
+}
+
+.products .prodBtn{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: black;
+    float: left;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-align: center;
+}
+
+.products .prodBtn:hover{
+    color: black;
+    text-shadow: 0px 1px 1px grey;
+    cursor: pointer;
+}
+    
+.prodcontent{
+      min-width: 100px;
+      text-align: center;
+      display: none;
+      width: 100%;
+      position: absolute;
+      background-image:  linear-gradient(to bottom right, white , grey ); 
+      box-shadow: 1px 1px 10px 0px black;
+      z-index: 999;
+      top: 100%;
+}
+
+.products:hover .prodcontent{
+    z-index: 999;
+      display: block;
+}
+
+.prodcontent a{
+    font-family: montserrat;
+    font-size: 75%;
+    float: none;
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    z-index: 99999;
+    transition: all .2s linear;
+}
+
+.prodcontent a:hover{
+      background-image:  linear-gradient(to bottom right,white ,  grey ); 
+      font-weight: bold;
+ }

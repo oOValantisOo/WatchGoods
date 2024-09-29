@@ -1,0 +1,655 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header{
+    font-family: montserrat;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background: white;
+    border-bottom: solid black;
+}
+
+.mainlogo{
+    font-weight: bold;
+}
+
+.products{
+    padding-left: 10px;
+    z-index: 999;
+    position: relative;
+    display: inline-block;
+}
+
+.products .prodBtn{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: black;
+    float: left;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-align: center;
+}
+
+.products .prodBtn:hover{
+    color: black;
+    text-shadow: 0px 1px 1px grey;
+    cursor: pointer;
+}
+    
+.prodcontent{
+      min-width: 100px;
+      text-align: center;
+      display: none;
+      width: 100%;
+      position: absolute;
+      background-image:  linear-gradient(to bottom right, white , grey ); 
+      box-shadow: 1px 1px 10px 0px black;
+      z-index: 999;
+      top: 100%;
+}
+
+.products:hover .prodcontent{
+    z-index: 999;
+      display: block;
+}
+
+.prodcontent a{
+    font-size: 75%;
+    float: none;
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    z-index: 99999;
+    transition: all .2s linear;
+}
+
+.prodcontent a:hover{
+      background-image:  linear-gradient(to bottom right,white ,  grey ); 
+      font-weight: bold;
+ }
+
+ .navbar_left{
+    display: flex;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.navbar_left a{
+    margin-left: 20px;
+    display:flex;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar_left a:hover {
+    color: black;
+    text-shadow: 0px 1px 1px grey;
+}
+
+.topimage img{
+    width: 100%;
+    height: 600px;
+}
+
+.brandname{
+    font-family: montserrat;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.items{
+    padding-top: 50px;
+    font-family: montserrat;
+    display: flex;
+    justify-content: space-around;
+}
+
+.watch1{
+    text-align: center;
+    height: 600px;
+    align-items: center;
+    width: 350px;
+}
+
+.watch1pic img{
+    text-align: center;
+    width: 200px;
+    height: 250px;
+}
+
+.watch1info{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.watch1desc{
+    text-align: justify;
+}
+
+.watch2{
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.watch2pic img{
+    width: 200px;
+    height: 250px;
+}
+
+.watch2info{
+    padding-top: 50px;
+}
+
+.watch2desc{
+    text-align: justify;
+}
+
+.watch3{
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.watch3pic img{
+    width: 200px;
+    height: 250px;
+}
+
+.watch3info{
+    padding-top: 50px;
+}
+
+.watch3desc{
+    text-align: justify;
+}
+
+.rolex1{
+    text-align: center;
+    height: 600px;
+    align-items: center;
+    width: 350px;
+}
+
+.rolex1pic img{
+    padding-top: 20px;;
+    text-align: center;
+    width: 200px;
+    height: 230px;
+}
+
+.rolex1info{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.rolex1desc{
+    text-align: justify;
+}
+
+.rolex2{
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.rolex2pic img{
+    width: 250px;
+    height: 250px;
+}
+
+.rolex2info{
+    padding-top: 50px;
+}
+
+.rolex2desc{
+    text-align: justify;
+}
+
+.rolex3{
+    padding-top: 20px;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.rolex3pic img{
+    width: 300px;
+    height: 230px;
+}
+
+.rolex3info{
+    padding-top: 50px;
+}
+
+.rolex3desc{
+    text-align: justify;
+}
+
+.footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left:60px;
+    padding-right: 60px;
+    background-color: black;
+    color: white;
+    height: 330px;
+}
+
+.footerlogo{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.footercontent{
+    display: flex;
+}
+
+.sitemap{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.hq{
+    margin-left: 100px;
+}
+
+.contactfooter{
+    margin-left: 100px;
+}
+
+.insta img{
+    width: 60px;
+    height: 50px;
+    float: left;
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+}
+
+.facebook{
+    padding-left: 15px;
+    align-items: center;
+    vertical-align: center;
+    height: 50px;
+    display: flex;
+}
+
+.facebook img{
+    margin-right: 18px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.socials{
+    margin-left: 100px;
+}
+
+.socialstitle{
+    padding-left:16px;
+}
+
+@media screen and (max-width: 800px){
+    *{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .header{
+        font-family: montserrat;
+        width: 100%;
+        top: 0;
+        position: fixed;
+        background: white;
+        border-bottom: solid black;
+    }
+    
+    .mainlogo{
+        font-weight: bold;
+    }
+    
+    .products{
+        padding-left: 10px;
+        z-index: 999;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .products .prodBtn{
+        border: none;
+        outline: none;
+        background-color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        color: black;
+        float: left;
+        text-decoration: none;
+        transition: all .2s linear;
+        text-align: center;
+    }
+    
+    .products .prodBtn:hover{
+        color: black;
+        text-shadow: 0px 1px 1px grey;
+        cursor: pointer;
+    }
+        
+    .prodcontent{
+          min-width: 100px;
+          text-align: center;
+          display: none;
+          width: 100%;
+          position: absolute;
+          background-image:  linear-gradient(to bottom right, white , grey ); 
+          box-shadow: 1px 1px 10px 0px black;
+          z-index: 999;
+          top: 100%;
+    }
+    
+    .products:hover .prodcontent{
+        z-index: 999;
+          display: block;
+    }
+    
+    .prodcontent a{
+        font-size: 75%;
+        float: none;
+        color: black;
+        padding: 15px 16px;
+        text-decoration: none;
+        text-align: left;
+        display: block;
+        z-index: 99999;
+        transition: all .2s linear;
+    }
+    
+    .prodcontent a:hover{
+          background-image:  linear-gradient(to bottom right,white ,  grey ); 
+          font-weight: bold;
+     }
+    
+     .navbar_left{
+        display: flex;
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+    
+    .navbar_left a{
+        margin-left: 20px;
+        display:flex;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .navbar_left a:hover {
+        color: black;
+        text-shadow: 0px 1px 1px grey;
+    }
+    
+    .topimage img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .brandname{
+        font-family: montserrat;
+        font-size: 18px;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+    
+    .items{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top: 50px;
+        font-family: montserrat;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .watch1{
+        text-align: center;
+        height: 600px;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .watch1pic img{
+        text-align: center;
+        width: 200px;
+        height: 250px;
+    }
+    
+    .watch1info{
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .watch1desc{
+        text-align: justify;
+    }
+    
+    .watch2{
+        height: 600px;
+        text-align: center;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .watch2pic img{
+        width: 200px;
+        height: 250px;
+    }
+    
+    .watch2info{
+        padding-top: 50px;
+    }
+    
+    .watch2desc{
+        text-align: justify;
+    }
+    
+    .watch3{
+        height: 600px;
+        text-align: center;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .watch3pic img{
+        width: 200px;
+        height: 250px;
+    }
+    
+    .watch3info{
+        padding-top: 50px;
+    }
+    
+    .watch3desc{
+        text-align: justify;
+    }
+    
+    .rolex1{
+        text-align: center;
+        height: 600px;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .rolex1pic img{
+        padding-top: 20px;;
+        text-align: center;
+        width: 200px;
+        height: 230px;
+    }
+    
+    .rolex1info{
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    .rolex1desc{
+        text-align: justify;
+    }
+    
+    .rolex2{
+        height: 600px;
+        text-align: center;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .rolex2pic img{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .rolex2info{
+        padding-top: 50px;
+    }
+    
+    .rolex2desc{
+        text-align: justify;
+    }
+    
+    .rolex3{
+        padding-top: 20px;
+        height: 600px;
+        text-align: center;
+        align-items: center;
+        width: 350px;
+    }
+    
+    .rolex3pic img{
+        width: 300px;
+        height: 230px;
+    }
+    
+    .rolex3info{
+        padding-top: 50px;
+    }
+    
+    .rolex3desc{
+        text-align: justify;
+    }
+    
+    .footer{
+        margin:0;
+        margin-top: 70px;
+        padding:0;
+        padding-top:20px;
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 650px;
+        bottom: 0;
+    }
+    
+    .footerlogo{
+        font-size: 20px;
+        color: white;
+        background-color: black;
+    }
+    
+    .footercontent{
+        margin:0;
+        padding:0;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    
+    .sitemap{
+        margin:0;
+        padding:0;
+        color: white;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .hq{
+        margin:0;
+        padding:0;
+    }
+
+    .contactfooter{
+        margin:0;
+        padding:0;
+    }
+
+    .socials{
+        align-items: center;
+        text-align: center;
+        margin:0;
+        padding:0;
+    }
+    
+    .insta img{
+        padding-left:35%;
+        width: 60px;
+        height: 50px;
+        float: left;
+    }
+    
+    .insta{
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .facebook{
+        text-align: center;
+        align-items: center;
+        vertical-align: center;
+        height: 50px;
+        display: flex;
+    }
+    
+    .facebook img{
+        padding-left:36%;
+        margin-right: 18px;
+        width: 30px;
+        height: 30px;
+        float: left;
+    }
+    
+    .socialstitle{
+        text-align: center;
+    }
+    
+}

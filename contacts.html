@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel = "stylesheet" href = "contactStyle.css"/>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar_left">
+            <div class="mainlogo"><a href="Home.html">WatcHGoods</a></div>
+            <div class="products">
+                <button class="prodBtn">PRODUCTS</button>
+                <ul>
+                    <li></li>
+                </ul>
+                <div class="prodcontent">
+                    <a href="hublot.html">Hublot</a>
+                    <a href="Omega.html">Omega</a>
+                    <a href="rolex.html">Rolex</a>
+                </div>
+            </div>
+            <a href="Locations.html">LOCATIONS</a>
+            <a href="Contacts.html">CONTACT US</a>
+            <a href="About.html">ABOUT US</a>
+        </div>
+    </div>    
+
+    <div class = "toptext">
+        <div class = "maintext">
+            <h2>Contact Us</h1>
+        </div>
+        <div class = "secondtext">
+            <h3>If you have questions regarding our products and services and/or any aspect of your purchase, please feel free to contact us.</h2>
+        </div>
+    </div>
+
+    <div class = "container">
+        <div class = "form-container">
+        <form method = "post">
+            <label for = "name">Full name</label>
+            <br>
+            <br>
+            <input type = "text" id = "name" name = "fullname" placeholder="Your full name">
+            <br>
+            <label for = "email">Email</label>
+            <br>
+            <br>
+            <input type = "text" id = "email" name = "email" placeholder="Your email">
+            <br>
+            <input type = "radio" name = "gender" id = "male">
+            <label for = "gender">Male</label>
+            <input type = "radio" name = "gender" id = "female">
+            <label for = "gender">Female</label>
+            <br>
+            <br>
+            <label for="country">Country</label>
+            <br>
+            <br>
+            <select id="country" name="country">
+            <option value="none">-</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">Indonesia</option>
+            <option value="usa">Japan</option>
+            <option value="usa">South Korea</option>
+            <option value="usa">England</option>
+            <option value="usa">Sweden</option>
+            <option value="usa">New Zealand</option>
+            </select>
+            <br>
+            <label for = "message">Message</label>
+            <br>
+            <br>
+            <textarea id="message" placeholder="Your message"></textarea>
+            <br>
+            <label class="agree">
+                <input type="checkbox" id = "agree">I agree for both parties to receive a copy of this message
+                <span class="checkmark"></span>
+            </label>
+            </form>
+        <button type = "button" onclick = "validateData()">Submit</button>
+        </div>
+        <div class = "background">
+            <img src = "images/contactbg.jpg">
+        </div>
+    </div>
+
+    <script src = "contactValid.js"></script>
+
+    <div class = "footer">
+        <div class = "footerlogo">
+            <h1>WatcHGoods</h1>
+        </div>
+
+        <div class = "footercontent">
+        <div class = "sitemap">
+            <h1>Sitemap</h1>
+            <p1>FAQ</p1>
+            <br>
+            <p2>Terms and Services</p2>
+            <br>
+            <p3>Privacy Policy</p3>
+        </div>
+        <div class = "hq">
+                <h1>
+                    Our Main Headquarters
+                </h1>
+                <p1>701 Naoetsu Road,</p1>
+                <p2>#AC7/04 Eikou Shopping District</p2>
+                <br>
+                <p3>Shinjuku, Tokyo</p3>
+                <br>
+                <p4>+1234567890</p4>
+            </div>
+        <div class = "contactfooter">
+            <h1>Contact Us</h1>
+            <p1>Email:</p1>
+            <br>
+            <p2>watchgoods@gmail.com</p2>
+            <br>
+            <br>
+            <p3>Phone:</p3>
+            <br>
+            <p4>+0707440000</p4>
+        </div>
+        <div class = "socials">
+            <div class = "socialstitle">
+                <h1>Our Socials</h1>
+            </div>
+            <div class = "insta">
+                <img src = "images/instalogo.png">
+                <p>@watchgoodsofficial</p>
+            </div>
+            <div class = "facebook">
+                <img src = "images/facebooklogo.jpg">
+                <p>watchgoodsofficial</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
